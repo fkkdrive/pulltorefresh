@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'main.dart';
+part of 'pull.dart';
 
 // **************************************************************************
 // JsonSerializableGenerator
@@ -9,24 +9,36 @@ part of 'main.dart';
 _$ActivityImpl _$$ActivityImplFromJson(Map<String, dynamic> json) =>
     _$ActivityImpl(
       activity: json['activity'] as String,
+      availability: (json['availability'] as num).toDouble(),
       type: json['type'] as String,
       participants: (json['participants'] as num).toInt(),
       price: (json['price'] as num).toDouble(),
+      accessibility: json['accessibility'] as String,
+      duration: json['duration'] as String,
+      kidFriendly: json['kidFriendly'] as bool,
+      link: json['link'] as String,
+      key: json['key'] as String,
     );
 
 Map<String, dynamic> _$$ActivityImplToJson(_$ActivityImpl instance) =>
     <String, dynamic>{
       'activity': instance.activity,
+      'availability': instance.availability,
       'type': instance.type,
       'participants': instance.participants,
       'price': instance.price,
+      'accessibility': instance.accessibility,
+      'duration': instance.duration,
+      'kidFriendly': instance.kidFriendly,
+      'link': instance.link,
+      'key': instance.key,
     };
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$activityHash() => r'609ac1c1d8008d8109ea5869c7aa88013032917c';
+String _$activityHash() => r'5eae0a8cd7011e25cb96bcd9d430b019b3c9d562';
 
 /// See also [activity].
 @ProviderFor(activity)
