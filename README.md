@@ -27,7 +27,6 @@ samples, guidance on mobile development, and a full API reference.
 - flutter pub add riverpod_annotation
 - flutter pub add json_annotation
 - flutter pub add google_fonts
-
 - flutter pub add dev:build_runner
 - flutter pub add dev:freezed
 - flutter pub add dev:riverpod_generator
